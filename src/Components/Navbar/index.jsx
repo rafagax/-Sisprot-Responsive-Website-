@@ -13,6 +13,12 @@ const Navbar = () => {
       <DropdownMenu />
       <nav className='navbar'>
         <ul className='nav-links'>
+        
+          <li>
+            <NavLink to="/all"onClick={() => context.setSearchByCategory('all')}>
+              All
+            </NavLink>
+          </li>
           
           <li>
             <NavLink to='/clothes' onClick={() => context.setSearchByCategory('clothes')}>
