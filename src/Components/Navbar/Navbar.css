@@ -1,131 +1,132 @@
-/* Navbar.css */
 .container {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .navbar {
-    background-color: rgb(3, 4, 19);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: -1;
-  }
-  
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: rgb(3, 4, 19);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 2px 5px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.nav-links li a:hover {
+  color: rgb(255, 253, 253);
+  background-color: rgb(73, 41, 253);
+}
+
+.active-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: blue;
+}
+
+.nav-actions {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.email {
+  color: rgb(255, 253, 253);
+  padding: 2px 5px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.email:hover {
+  color: rgb(255, 253, 253);
+  background-color: rgb(73, 41, 253);
+}
+
+.nav-orders {
+  color: rgb(255, 253, 253);
+  padding: 2px 5px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.nav-orders:hover {
+  color: rgb(255, 253, 253);
+  background-color: rgb(73, 41, 253);
+}
+
+.cart {
+  position: relative;
+}
+
+.cart-icon {
+  height: 24px;
+  width: 24px;
+  color: rgb(255, 253, 253);
+}
+
+.cart-count {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
+    display: none;
   }
-  
-  .brand {
-    font-weight: bold;
-    font-size: 1.5rem;
+
+  .dropdown-container {
+    display: block;
   }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: rgb(255, 253, 253);
-    transition: color 0.3s ease;
+}
+
+@media (min-width: 769px) {
+  .dropdown-container {
+    display: none;
   }
-  
-  .nav-links li a:hover {
-    color: rgb(255, 253, 253);
-    background-color: rgb(73, 41, 253);
-    border-radius: 8px;
-    padding: 2px 5px;
+}
+
+@media (max-width: 420px) {
+  .nav-actions .email {
+    display: none;
   }
-  
-  /* Estilo para el enlace activo */
-  .active-link {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    color: blue; /* Cambia el color según tus preferencias */
-  }
-  
-  .nav-actions {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .email:hover {
-    color: rgb(255, 253, 253);
-    background-color: rgb(73, 41, 253);
-    border-radius: 8px;
-    padding: 2px 5px;
-  }
-  
-  .email {
-    color: rgb(255, 253, 253);
-  }
-  
-  .nav-orders:hover {
-    color: rgb(255, 253, 253);
-    background-color: rgb(73, 41, 253);
-    border-radius: 8px;
-    padding: 2px 5px;
-  }
-  
-  .nav-orders {
-    color: rgb(255, 253, 253);
-  }
-  
-  .cart {
-    position: relative;
-  }
-  
-  .cart-icon {
-    height: 24px;
-    width: 24px;
-    color: rgb(255, 253, 253);
-  }
-  
-  .cart-count {
-    position: absolute;
-    top: -0.5rem;
-    right: -0.5rem;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    height: 16px;
-    width: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.75rem;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-  
-    .dropdown-container {
-      display: block;
-    }
-  }
-  
-  @media (min-width: 769px) {
-    .dropdown-container {
-      display: none;
-    }
-  }
-  
-  @media (max-width: 420px) {
-    .nav-actions .email {
-      display: none;
-    }
-  }
+}
