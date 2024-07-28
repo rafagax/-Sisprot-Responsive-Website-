@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { ShoppingBagIcon } from '@heroicons/react/24/solid';
 import { ShoppingCartContext } from '../../Context';
-import './Navbar.css'; // Importar el archivo CSS
+import './Navbar.css';
 import DropdownMenu from '../DropdownMenu';
 
 const Navbar = () => {
@@ -13,30 +13,19 @@ const Navbar = () => {
       <DropdownMenu />
       <nav className='navbar'>
         <ul className='nav-links'>
-        
+     
           <li>
-            <NavLink to="/all"onClick={() => context.setSearchByCategory('all')}>
-              All
-            </NavLink>
-          </li>
-          
-          <li>
-            <NavLink to='/clothes' onClick={() => context.setSearchByCategory('clothes')}>
-              Planes
+            <NavLink to='/planes-y-Servicios' onClick={() => context.setSearchByCategory('Splanes-y-Servicios')}>
+              Planes y Servicios
             </NavLink>
           </li>
           <li>
-            <NavLink to='/electronics' onClick={() => context.setSearchByCategory('electronics')}>
-              Servicios
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to='/furnitures' onClick={() => context.setSearchByCategory('furnitures')}>
+            <NavLink to='/SisprotTv' onClick={() => context.setSearchByCategory('SisprotTv')}>
               Sisprot Tv
             </NavLink>
           </li>
           <li>
-            <NavLink to='/toys' onClick={() => context.setSearchByCategory('toys')}>
+            <NavLink to='/Instalacion' onClick={() => context.setSearchByCategory('Instalacion')}>
               Instalacion
             </NavLink>
           </li>
