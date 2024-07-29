@@ -18,9 +18,9 @@ const DropdownMenu = () => {
         <li><NavLink to='/planes-y-Servicios' className='dropdown-link'>Planes y Servicios</NavLink></li>
         <li><NavLink to='/SisprotTv' className='dropdown-link'>Sisprot Tv</NavLink></li>
         <li><NavLink to='/Instalacion' className='dropdown-link'>Instalacion</NavLink></li>
-        <li><NavLink to='/others' className='dropdown-link'>Otros</NavLink></li>
-        <li><NavLink to='/my-orders' className='dropdown-link'>Mis Ordenes</NavLink></li>
-        <li><NavLink to='/All' className='dropdown-link'>All</NavLink></li>
+        <li><NavLink to='/Otros' className='dropdown-link'>Otros</NavLink></li>
+        <li><NavLink to='/MisOrdenes' className='dropdown-link'>Mis Ordenes</NavLink></li>
+        
       </ul>
     </div>
   );

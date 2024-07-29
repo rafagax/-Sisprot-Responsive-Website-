@@ -2,6 +2,7 @@ import { useRoutes, BrowserRouter } from 'react-router-dom';
 import Home from '../Home';
 import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
+import MisOrdenes from '../MisOrdenes';
 import './App.css';
 
 const AppRoutes = () => {
@@ -10,8 +11,8 @@ const AppRoutes = () => {
     { path: '/planes-y-Servicios', element: <Home /> },
     { path: '/SisprotTv', element: <Home /> },
     { path: '/Instalacion', element: <Home /> },
-    { path: '/orthers', element: <MyAccount /> },
-    { path: '/my-orders', element: <MyOrder /> },
+    { path: '/orthers', element: <Home /> },
+    { path: '/MisOrdenes', element: <MisOrdenes /> },
     { path: '/*', element: <NotFound /> },
   ]);
 

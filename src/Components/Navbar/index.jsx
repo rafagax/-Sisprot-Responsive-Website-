@@ -30,7 +30,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to='/others'>
+            <NavLink to='/Otros'>
               Otros
             </NavLink>
           </li>
@@ -40,8 +40,8 @@ const Navbar = () => {
             Sisprot Global Fiber
           </li>
           <li className='nav-orders'>
-            <NavLink to='/my-orders'>
-              My Orders
+            <NavLink to='/MisOrdenes'>
+              Mis Ordenes
             </NavLink>
           </li>
           <li className='cart'>
