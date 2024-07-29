@@ -1,26 +1,24 @@
-
 import { NavLink } from 'react-router-dom';
 import { ShoppingBagIcon } from '@heroicons/react/24/solid';
-
 import './Navbar.css';
 import DropdownMenu from '../DropdownMenu';
 
 const Navbar = () => {
-
-
   return (
     <>
       <DropdownMenu />
       <nav className='navbar'>
         <ul className='nav-links'>
-     
+          <li className='logo'>
+            <img src='logo_sgf.png' alt='Logo' className='logo-img' />
+          </li>
           <li>
-            <NavLink to='/planes-y-Servicios' >
+            <NavLink to='/planes-y-Servicios'>
               Planes y Servicios
             </NavLink>
           </li>
           <li>
-            <NavLink to='/SisprotTv' >
+            <NavLink to='/SisprotTv'>
               Sisprot Tv
             </NavLink>
           </li>
