@@ -1,12 +1,12 @@
-import { useContext } from 'react';
+
 import { NavLink } from 'react-router-dom';
 import { ShoppingBagIcon } from '@heroicons/react/24/solid';
-import { ShoppingCartContext } from '../../Context';
+
 import './Navbar.css';
 import DropdownMenu from '../DropdownMenu';
 
 const Navbar = () => {
-  const context = useContext(ShoppingCartContext);
+
 
   return (
     <>
@@ -15,22 +15,22 @@ const Navbar = () => {
         <ul className='nav-links'>
      
           <li>
-            <NavLink to='/planes-y-Servicios' onClick={() => context.setSearchByCategory('Splanes-y-Servicios')}>
+            <NavLink to='/planes-y-Servicios' >
               Planes y Servicios
             </NavLink>
           </li>
           <li>
-            <NavLink to='/SisprotTv' onClick={() => context.setSearchByCategory('SisprotTv')}>
+            <NavLink to='/SisprotTv' >
               Sisprot Tv
             </NavLink>
           </li>
           <li>
-            <NavLink to='/Instalacion' onClick={() => context.setSearchByCategory('Instalacion')}>
+            <NavLink to='/Instalacion'>
               Instalacion
             </NavLink>
           </li>
           <li>
-            <NavLink to='/others' onClick={() => context.setSearchByCategory('others')}>
+            <NavLink to='/others'>
               Otros
             </NavLink>
           </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
           <li className='cart'>
             <ShoppingBagIcon className='cart-icon'></ShoppingBagIcon>
-            <div className='cart-count'>{context.cartProducts.length}</div>
+            <div className='cart-count'> </div>
           </li>
         </ul>
       </nav>
