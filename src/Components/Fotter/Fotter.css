@@ -24,15 +24,33 @@
     height: 24px;
   }
   
-  .contact {
-    background-color: white;
-    color: #003366;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
+  .contact-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
   }
   
-  .contact p {
-    margin: 0;
+  .contact {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: rgb(7, 94, 84);
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-font-smoothing: initial;
+  }
+  
+  .contact img {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+    margin-right: 8px;
+    z-index: 1000;
   }
   
