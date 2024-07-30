@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <>
       <DropdownMenu />
-      <div className='logo'>
+   
           <img src='/logo_sgf.png' alt='Logo' className='logo-img' />
-        </div>
+  
       <nav className='navbar'>
         <ul className='nav-links'>
           <li>
