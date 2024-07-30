@@ -1,5 +1,5 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-import Home from '../Home';
+import PlanesYServicios from '../PlanesYServicios'; // Asegúrate de que la ruta sea correcta
 import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
 import MisOrdenes from '../MisOrdenes';
@@ -7,11 +7,11 @@ import './App.css';
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <Home /> },
-    { path: '/planes-y-Servicios', element: <Home /> },
-    { path: '/SisprotTv', element: <Home /> },
-    { path: '/Instalacion', element: <Home /> },
-    { path: '/Otros', element: <Home /> },
+    { path: '/', element: <PlanesYServicios /> },
+    { path: '/PlanesyServicios', element: <PlanesYServicios /> },
+    { path: '/SisprotTv', element: <PlanesYServicios /> },
+    { path: '/Instalacion', element: <PlanesYServicios /> },
+    { path: '/Otros', element: <PlanesYServicios /> },
     { path: '/MisOrdenes', element: <MisOrdenes /> },
     { path: '/*', element: <NotFound /> },
   ]);
@@ -21,13 +21,10 @@ const AppRoutes = () => {
 
 const App = () => {
   return (
-   
-      <BrowserRouter>
-        <Navbar />
-        <AppRoutes />
-      
-      </BrowserRouter>
-
+    <BrowserRouter>
+      <Navbar />
+      <AppRoutes />
+    </BrowserRouter>
   );
 };
 
