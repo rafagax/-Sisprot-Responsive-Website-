@@ -1,22 +1,33 @@
-.container {
+
+
+.logo-img {
+  height: 40px; /* Puedes ajustar la altura según sea necesario */
+  max-height: 50px; /* Asegúrate de que el logo no sea demasiado grande */
+  position: relative; /* Asegúrate de que el z-index tenga efecto */
+  z-index: 1001; /* Asegúrate de que el logo esté por encima del navbar */
+  display: flex;
+}
+/* Ajuste adicional para asegurar que el logo se alinee correctamente */
+.nav-links .logo {
+  margin-right: auto; /* Esto asegura que el logo esté alineado a la izquierda y otros elementos a la derecha */
   display: flex;
   align-items: center;
-  padding: 20px;
 }
+
 
 .navbar {
   background-color: rgb(3, 4, 19);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 1rem 2rem;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1;
+  padding-left: 65px;
+  z-index: 1000; /* Asegúrate de que el navbar esté por debajo del logo */
 }
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -111,22 +122,26 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .nav-links {
-    display: none;
+    display: none; /* Oculta los enlaces de navegación en dispositivos móviles */
   }
+ 
 
   .dropdown-container {
-    display: block;
+    display: block; /* Muestra el menú desplegable en dispositivos móviles */
   }
 }
 
 @media (min-width: 769px) {
   .dropdown-container {
-    display: none;
+    display: none; /* Oculta el menú desplegable en dispositivos grandes */
   }
 }
 
-@media (max-width: 420px) {
-  .nav-actions .email {
-    display: none;
+@media (max-width: 515px) {
+  /* .nav-actions .email, */
+  .nav-actions .nav-orders,
+  .nav-actions .cart {
+    display: none; /* Oculta el email y las órdenes en pantallas pequeñas */
   }
 }
+

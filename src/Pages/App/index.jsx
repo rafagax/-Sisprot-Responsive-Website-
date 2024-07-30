@@ -1,25 +1,18 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-import { ShoppingCartProvider } from '../../Context';
-import Home from '../Home';
-import MyAccount from '../MyAccount';
-import MyOrder from '../MyOrder';
-import MyOrders from '../MyOrders';
+import PlanesYServicios from '../PlanesYServicios'; // Asegúrate de que la ruta sea correcta
 import NotFound from '../NotFound';
-import SignIn from '../SignIn';
 import Navbar from '../../Components/Navbar';
-import CheckoutSideMenu from '../../Components/CheckoutSideMenu';
+import MisOrdenes from '../MisOrdenes';
 import './App.css';
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <Home /> },
-    { path: '/planes-y-Servicios', element: <Home /> },
-    { path: '/SisprotTv', element: <Home /> },
-    { path: '/Instalacion', element: <Home /> },
-    { path: '/orthers', element: <MyAccount /> },
-    { path: '/my-orders', element: <MyOrder /> },
-    { path: '/my-orders/last', element: <MyOrder /> },
-    { path: '/my-orders/:id', element: <MyOrder /> },
+    { path: '/', element: <PlanesYServicios /> },
+    { path: '/PlanesyServicios', element: <PlanesYServicios /> },
+    { path: '/SisprotTv', element: <PlanesYServicios /> },
+    { path: '/Instalacion', element: <PlanesYServicios /> },
+    { path: '/Otros', element: <PlanesYServicios /> },
+    { path: '/MisOrdenes', element: <MisOrdenes /> },
     { path: '/*', element: <NotFound /> },
   ]);
 
@@ -28,13 +21,10 @@ const AppRoutes = () => {
 
 const App = () => {
   return (
-    <ShoppingCartProvider>
-      <BrowserRouter>
-        <Navbar />
-        <AppRoutes />
-        <CheckoutSideMenu />
-      </BrowserRouter>
-    </ShoppingCartProvider>
+    <BrowserRouter>
+      <Navbar />
+      <AppRoutes />
+    </BrowserRouter>
   );
 };
 

@@ -1,36 +1,34 @@
-import { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { ShoppingBagIcon } from '@heroicons/react/24/solid';
-import { ShoppingCartContext } from '../../Context';
 import './Navbar.css';
 import DropdownMenu from '../DropdownMenu';
 
 const Navbar = () => {
-  const context = useContext(ShoppingCartContext);
-
   return (
     <>
       <DropdownMenu />
+   
+          <img src='/logo_sgf.png' alt='Logo' className='logo-img' />
+  
       <nav className='navbar'>
         <ul className='nav-links'>
-     
           <li>
-            <NavLink to='/planes-y-Servicios' onClick={() => context.setSearchByCategory('Splanes-y-Servicios')}>
+            <NavLink to='/planesyServicios'>
               Planes y Servicios
             </NavLink>
           </li>
           <li>
-            <NavLink to='/SisprotTv' onClick={() => context.setSearchByCategory('SisprotTv')}>
+            <NavLink to='/SisprotTv'>
               Sisprot Tv
             </NavLink>
           </li>
           <li>
-            <NavLink to='/Instalacion' onClick={() => context.setSearchByCategory('Instalacion')}>
+            <NavLink to='/Instalacion'>
               Instalacion
             </NavLink>
           </li>
           <li>
-            <NavLink to='/others' onClick={() => context.setSearchByCategory('others')}>
+            <NavLink to='/Otros'>
               Otros
             </NavLink>
           </li>
@@ -40,13 +38,13 @@ const Navbar = () => {
             Sisprot Global Fiber
           </li>
           <li className='nav-orders'>
-            <NavLink to='/my-orders'>
-              My Orders
+            <NavLink to='/MisOrdenes'>
+              Mis Ordenes
             </NavLink>
           </li>
           <li className='cart'>
             <ShoppingBagIcon className='cart-icon'></ShoppingBagIcon>
-            <div className='cart-count'>{context.cartProducts.length}</div>
+            <div className='cart-count'> </div>
           </li>
         </ul>
       </nav>
