@@ -1,7 +1,15 @@
-.container {
+/* Ajustes para el tamaño del logo */
+.logo-img {
+  height: 40px; /* Puedes ajustar la altura según sea necesario */
+  max-height: 50px; /* Asegúrate de que el logo no sea demasiado grande */
+  
+}
+
+/* Ajuste adicional para asegurar que el logo se alinee correctamente */
+.nav-links .logo {
+  margin-right: auto; /* Esto asegura que el logo esté alineado a la izquierda y otros elementos a la derecha */
   display: flex;
   align-items: center;
-  padding: 20px;
 }
 
 .navbar {
@@ -14,6 +22,7 @@
   position: fixed;
   width: 100%;
   top: 0;
+  padding-left: 65px;
   z-index: -1000;
 }
 
@@ -111,22 +120,26 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .nav-links {
-    display: none;
+    display: none; /* Oculta los enlaces de navegación en dispositivos móviles */
   }
+ 
 
   .dropdown-container {
-    display: block;
+    display: block; /* Muestra el menú desplegable en dispositivos móviles */
   }
 }
 
 @media (min-width: 769px) {
   .dropdown-container {
-    display: none;
+    display: none; /* Oculta el menú desplegable en dispositivos grandes */
   }
 }
 
-@media (max-width: 420px) {
-  .nav-actions .email {
-    display: none;
+@media (max-width: 515px) {
+  /* .nav-actions .email, */
+  .nav-actions .nav-orders,
+  .nav-actions .cart {
+    display: none; /* Oculta el email y las órdenes en pantallas pequeñas */
   }
 }
+

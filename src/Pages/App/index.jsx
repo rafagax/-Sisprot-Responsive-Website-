@@ -11,7 +11,7 @@ const AppRoutes = () => {
     { path: '/planes-y-Servicios', element: <Home /> },
     { path: '/SisprotTv', element: <Home /> },
     { path: '/Instalacion', element: <Home /> },
-    { path: '/orthers', element: <Home /> },
+    { path: '/Otros', element: <Home /> },
     { path: '/MisOrdenes', element: <MisOrdenes /> },
     { path: '/*', element: <NotFound /> },
   ]);
