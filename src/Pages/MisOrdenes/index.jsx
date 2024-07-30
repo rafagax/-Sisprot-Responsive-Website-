@@ -1,9 +1,10 @@
+import Fotter from '../../Components/fotter';
 import './MisOrdenes.css';
 
 function MisOrdenes() {
    return (
-    <>
-     <div>Home </div>
+ 
+     <div>
         <div>MisOrdenes </div>
         <div>MisOrdenes </div>
         <div>MisOrdenes </div>
@@ -21,8 +22,9 @@ function MisOrdenes() {
         <div>MisOrdenes </div>
         <div>MisOrdenes </div>
         <div>MisOrdenes </div>
-        </>
-     
+        <Fotter/>
+        </div>
+   
   );
 }
 

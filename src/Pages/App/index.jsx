@@ -3,7 +3,9 @@ import PlanesYServicios from '../PlanesYServicios'; // Asegúrate de que la ruta
 import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
 import MisOrdenes from '../MisOrdenes';
+import Fotter from '../../Components/Fotter';
 import './App.css';
+
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -23,6 +25,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
+      
       <AppRoutes />
     </BrowserRouter>
   );

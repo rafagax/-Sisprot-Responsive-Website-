@@ -1,0 +1,38 @@
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin: 10px 0;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact {
+    background-color: white;
+    color: #003366;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .contact p {
+    margin: 0;
+  }
+  
