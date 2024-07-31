@@ -98,6 +98,12 @@
   display: none; /* Oculta el texto inicialmente */
 }
 
+  .sectionfooter {
+    border-top: 2px solid white; /* Establece un borde superior sólido de 2px de color blanco */
+    margin-top: 10px;
+  padding-top: 10px;
+  }
+
 .contact-container:hover .cuadrowhasap {
   display: block;
 }
