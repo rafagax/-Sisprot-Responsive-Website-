@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="social-icons">
           <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
           <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
-          <a href="#"><img src="twitter.png" alt="Twitter" /></a>
+          {/* <a href="#"><img src="twitter.png" alt="Twitter" /></a> */}
           <a href="#"><img src="youtub.png" alt="YouTube" /></a>
         </div>
         <a href="https://api.whatsapp.com/send/?phone=584243076327&text&type=phone_number&app_absent=0" className="contact-link">
