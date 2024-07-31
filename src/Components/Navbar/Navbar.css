@@ -7,13 +7,16 @@
   z-index: 1001; /* Asegúrate de que el logo esté por encima del navbar */
   display: flex;
   position: fixed;
-  margin-top:  8px;
+  margin-top:  -40px;
+
+  
 }
 /* Ajuste adicional para asegurar que el logo se alinee correctamente */
 .nav-links .logo {
   margin-right: auto; /* Esto asegura que el logo esté alineado a la izquierda y otros elementos a la derecha */
   display: flex;
   align-items: center;
+  padding-top: -50px;
 }
 
 
@@ -141,13 +144,24 @@
   .dropdown-container {
     display: none; /* Oculta el menú desplegable en dispositivos grandes */
   }
+  
 }
 
 @media (max-width: 515px) {
   /* .nav-actions .email, */
   .nav-actions .nav-orders,
+ 
   .nav-actions .cart {
     display: none; /* Oculta el email y las órdenes en pantallas pequeñas */
   }
+  .navbar {
+    flex-direction: row-reverse;
 }
 
+}
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: row-reverse;
+}
+
+}

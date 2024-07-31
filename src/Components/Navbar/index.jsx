@@ -6,13 +6,17 @@ import DropdownMenu from '../DropdownMenu';
 const Navbar = () => {
   return (
     <>
-      <DropdownMenu />
+     
    
           <img src='/logo_sgf.png' alt='Logo' className='logo-img' />
   
       <nav className='navbar'>
+      <DropdownMenu />
+     
         <ul className='nav-links'>
-          <li>
+    
+      
+           <li>
             <NavLink to='/PlanesYServicios'>
               Planes y Servicios
             </NavLink>
