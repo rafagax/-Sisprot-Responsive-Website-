@@ -18,7 +18,7 @@ const Footer = () => {
   <div className="contact-container">
   <p className='cuadrowhasap'>whatsapp +58 0424-3076327 </p>
       <div className="contact">
-        <a href="#"><img src="whasap.png" alt="whatsapp" /></a>
+        <a href="https://api.whatsapp.com/send/?phone=584243076327&text&type=phone_number&app_absent=0"><img src="whasap.png" alt="whatsapp" /></a>
         <p>Contactanos </p>
         
       </div>
