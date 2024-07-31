@@ -6,7 +6,19 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <p className='pfotter'>2024, Sisprot Global Fiber. Todos los derechos reservados.</p>
+      <img src='/logo_sgf.png' alt='Logo' className='logo-Footer' />
+      <p>Corporación Sisprot Global Fiber, C.A. Destacada empresa de telecomunicaciones en Santiago Mariño, ofrece servicios de internet de alta velocidad para hogares, PYMEs, empresas e ISPs.</p>
+      <h5 className='H2-Footer'>Direccion</h5>
+        <p>Calle Mariño, CC Paseo Mariño, Nivel PB-09, Local PB-09, Centro Turmero, Aragua</p>
+        <h5 className='H2-Footer'>Horarios de atención al cliente:</h5>
+        <h5>Atencion por oficina</h5>
+        <p>Lunes - Viernes: 8:00 a.m. - 5:00 p.m.</p>
+        <p>Sábados: 8:00 a.m. - 1:00 p.m.</p>
+        <h5>Atencion por call center</h5>
+        <p>Lunes - Domingo: 8:00 a.m. - 11:59 p.m.</p>
+        <p>____________________________________________________________________________</p>
+    
+        <h4 className='pfotter'>© 2024, Sisprot Global Fiber. Todos los derechos reservados.</h4>
         <p className='pfotter'>Pg web desarrollada por Ing. Jesús-Vasquez</p>
         <div className="social-icons">
           <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
