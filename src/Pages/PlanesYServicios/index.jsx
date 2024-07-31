@@ -1,5 +1,5 @@
 
-import Fotter from '../../Components/fotter';
+import Fotter from '../../Components/Fotter';
 import './planes-y-Servicios.css';
 
 
