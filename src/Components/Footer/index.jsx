@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <p className='pfotter'>2024, Sisprot Global Fiber. Todos los derechos reservados.</p>
-        <p className='pfotter'>Pg web desarrollada por Ing. Jesús Rafael Vasquez</p>
+        <p className='pfotter'>Pg web desarrollada por Ing. Jesús-Vasquez</p>
         <div className="social-icons">
           <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
           <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
