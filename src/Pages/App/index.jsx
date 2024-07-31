@@ -3,7 +3,7 @@ import PlanesYServicios from '../PlanesYServicios'; // Asegúrate de que la ruta
 import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
 import MisOrdenes from '../MisOrdenes';
-import Fotter from '../../Components/Fotter';
+
 import './App.css';
 
 
