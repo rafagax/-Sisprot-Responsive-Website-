@@ -7,7 +7,7 @@
   background-color: #290fb9cc;
   color: #cccccc;
   border: 1px solid #cccccc;
-  padding: 16px 35px;
+  padding: 16px 50px;
   cursor: pointer;
   border-radius: 5px;
   display: flex;
@@ -35,7 +35,7 @@
   border-top: none;
   border-radius: 0 0 5px 5px;
   list-style: none;
-  width: 117px;
+  width: 147px;
   display: none;
   z-index: 1000;
   margin-top: 28px;
