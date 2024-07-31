@@ -110,7 +110,7 @@ margin-bottom: 10px;
 margin-top: 10px;
 }
 /* Responsive adjustments */
-@media (max-width: 680px) {
+@media (max-width: 955px) {
   .pfotter {
     text-align: left;
   }
