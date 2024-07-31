@@ -4,6 +4,7 @@
     text-align: center;
     padding: 20px;
     position: relative;
+    height: 200px;
   }
   
   .footer p {
@@ -54,3 +55,19 @@
     z-index: 1000;
   }
   
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .pfotter {
+        text-align: left;
+    }
+    .footer {
+        background-color: #003366;
+        color: white;
+        text-align: left;
+        padding: 20px;
+            height: 200px;
+            width: auto;
+       
+      }
+      
+}
