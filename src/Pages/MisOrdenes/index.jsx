@@ -1,4 +1,4 @@
-import Fotter from '../../Components/fotter';
+import Fotter from '../../Components/Footer';
 import './MisOrdenes.css';
 
 function MisOrdenes() {

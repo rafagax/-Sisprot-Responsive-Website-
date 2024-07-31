@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './Fotter.css';
+import './Footer.css';
 
-const Fotter = () => {
+const Footer = () => {
   
   return (
 <div className="footer">
@@ -30,4 +30,4 @@ const Fotter = () => {
   );
 }
 
-export default Fotter;
+export default Footer;
