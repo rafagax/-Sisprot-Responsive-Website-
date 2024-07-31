@@ -6,11 +6,13 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <section >  
+        
           <img src='/logo_sgf.png' alt='Logo' className='logo-Footer' />
           <p>Corporación Sisprot Global Fiber, C.A., destacada empresa de telecomunicaciones en Santiago Mariño, ofrece servicios de internet de alta velocidad para hogares, PYMEs, empresas e ISPs.</p>
+       
           <h5 className='H2-Footer'>Dirección</h5>
           <p>Calle Mariño, CC Paseo Mariño, Nivel PB-09, Local PB-09, Centro Turmero, Aragua</p>
+          <section className='sectionfooter' >   
           <h5 className='H2-Footer'>Horarios de atención al cliente:</h5>
           <h5>Atención por oficina</h5>
           <p>Lunes - Viernes: 8:00 a.m. - 5:00 p.m.</p>
