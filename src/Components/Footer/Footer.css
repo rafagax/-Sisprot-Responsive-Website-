@@ -4,7 +4,7 @@
   text-align: center;
   padding: 20px;
   position: relative;
-  height: 200px;
+  height: 550px;
 }
 
 .footer p {
@@ -16,8 +16,13 @@
   position: relative; /* Asegúrate de que el z-index tenga efecto */
   z-index: 1001; /* Asegúrate de que el logo esté por encima del navbar */
   display: flex;
-  position: relative;
-  padding-bottom: 20px;
+  position: absolute;
+  padding-bottom: -10px;
+  height: auto;
+  margin-top: 130px;
+ padding-left: 15%;
+
+
 
 }
   
@@ -105,7 +110,7 @@ margin-bottom: 10px;
 margin-top: 10px;
 }
 /* Responsive adjustments */
-@media (max-width: 640px) {
+@media (max-width: 680px) {
   .pfotter {
     text-align: left;
   }
@@ -114,8 +119,14 @@ margin-top: 10px;
     color: white;
     text-align: left;
     padding: 20px;
-    height: 690px;
+    height: auto;
     width: auto;
     text-align: center;
   }
+  .logo-Footer {
+    display: block;
+   margin: auto;
+   position: relative;
+   margin-bottom: 30px;
+}
 }
