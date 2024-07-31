@@ -33,14 +33,11 @@
   border: 1px solid #cccccc;
   border-top: none;
   border-radius: 0 0 5px 5px;
-  
-  
   list-style: none;
   width: 142px;
   display: none;
   margin-top: 15px;
   z-index: 1000;
-  
   margin-top: 58px;
 }
 
@@ -51,7 +48,7 @@
   display: block;
   margin: 0px;
   padding: 10px;
-
+  
   transition: background-color 0.3s ease;
 }
 
