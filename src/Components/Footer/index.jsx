@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <>    <div className="footer">
       <p className='pfotter'>2024, Sisprot Global Fiber. Todos los derechos reservados.</p>
       <div className="social-icons">
         <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
@@ -23,6 +23,8 @@ const Footer = () => {
         
       </div></a>
     </div>
+    </>
+
   );
 }
 
