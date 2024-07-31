@@ -13,15 +13,16 @@ const Fotter = () => {
     <a href="#"><img src="twitter.png" alt="Twitter" /></a>
     <a href="#"><img src="youtub.png" alt="YouTube" /></a>
   </div>
+
+  
   <div className="contact-container">
+  <p className='cuadrowhasap'>whatsapp +58 0424-3076327 </p>
       <div className="contact">
         <a href="#"><img src="whasap.png" alt="whatsapp" /></a>
         <p>Contactanos </p>
         
       </div>
  
- 
-     
     </div>
     
 </div>
