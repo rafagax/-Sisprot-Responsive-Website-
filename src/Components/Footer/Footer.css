@@ -42,6 +42,7 @@
 .social-icons img {
   width: 24px;
   height: 24px;
+  margin: auto;
 }
 
 .contact-container {
@@ -139,4 +140,7 @@ margin-bottom: 10px;
    position: relative;
    margin-bottom: 30px;
 }
-}
+.social-icons{
+
+  margin: 20px 0px 20px -180px;
+}}
