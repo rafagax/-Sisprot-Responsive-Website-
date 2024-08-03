@@ -5,17 +5,17 @@ import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
 import MisOrdenes from '../MisOrdenes';
 import SisprotTv from '../SisprotTv';
-import Otros from '../Otros';
+import PlanesyServicios from '../PlanesyServicios';
 import './App.css';
 
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <Otros /> },
+    { path: '/', element: <PlanesyServicios /> },
 
     { path: '/SisprotTv', element: <SisprotTv /> },
     { path: '/Instalacion', element: <Instalacion /> },
-    { path: '/Otros', element: <Otros /> },
+    { path: '/PlanesyServicios', element: <PlanesyServicios /> },
     { path: '/MisOrdenes', element: <MisOrdenes /> },
     { path: '/*', element: <NotFound /> },
   ]);

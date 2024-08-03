@@ -1,6 +1,6 @@
 import Footer from '../../Components/Footer';
-import Fotter from '../../Components/Footer';
-import './Otros.css';
+
+import './PlanesyServicios.css';
 
 function Otros() {
    return (
