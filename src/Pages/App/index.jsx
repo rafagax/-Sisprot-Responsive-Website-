@@ -11,7 +11,7 @@ import PlanesyServicios from '../PlanesyServicios';
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <PlanesYServicios /> },
+    { path: '/', element: <PlanesyServicios /> },
     { path: '/PlanesyServicios', element: <PlanesyServicios /> },
     { path: '/SisprotTv', element: <SisprotTv /> },
     { path: '/Instalacion', element: <Instalacion /> },
