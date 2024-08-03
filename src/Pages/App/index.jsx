@@ -1,8 +1,11 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
 import PlanesYServicios from '../PlanesYServicios'; // Asegúrate de que la ruta sea correcta
+import Instalacion from '../Instalacion'; // Asegúrate de que la ruta sea correcta
 import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
 import MisOrdenes from '../MisOrdenes';
+import SisprotTv from '../SisprotTv';
+import Otros from '../Otros';
 
 import './App.css';
 
@@ -11,9 +14,9 @@ const AppRoutes = () => {
   let routes = useRoutes([
     { path: '/', element: <PlanesYServicios /> },
     { path: '/PlanesyServicios', element: <PlanesYServicios /> },
-    { path: '/SisprotTv', element: <PlanesYServicios /> },
-    { path: '/Instalacion', element: <PlanesYServicios /> },
-    { path: '/Otros', element: <PlanesYServicios /> },
+    { path: '/SisprotTv', element: <SisprotTv /> },
+    { path: '/Instalacion', element: <Instalacion /> },
+    { path: '/Otros', element: <Otros /> },
     { path: '/MisOrdenes', element: <MisOrdenes /> },
     { path: '/*', element: <NotFound /> },
   ]);
