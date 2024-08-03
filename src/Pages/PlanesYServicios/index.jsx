@@ -5,7 +5,7 @@ import './planes-y-Servicios.css';
 
 
 
-function PlanesYServicios() {
+function PlanesyServicios() {
   return (
     <>
     <div className='planesyServicios-container'>
@@ -47,4 +47,4 @@ function PlanesYServicios() {
   );
 }
 
-export default PlanesYServicios;
+export default PlanesyServicios;

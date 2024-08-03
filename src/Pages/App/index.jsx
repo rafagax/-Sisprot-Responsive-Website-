@@ -6,16 +6,13 @@ import Navbar from '../../Components/Navbar';
 import MisOrdenes from '../MisOrdenes';
 import SisprotTv from '../SisprotTv';
 import Otros from '../Otros';
-
 import './App.css';
-import PlanesYServicios from '../PlanesyServicios';
-
-
+import PlanesyServicios from '../PlanesyServicios';
 
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: '/', element: <PlanesYServicios /> },
-    { path: '/PlanesyServicios', element: <PlanesYServicios /> },
+    { path: '/PlanesyServicios', element: <PlanesyServicios /> },
     { path: '/SisprotTv', element: <SisprotTv /> },
     { path: '/Instalacion', element: <Instalacion /> },
     { path: '/Otros', element: <Otros /> },
