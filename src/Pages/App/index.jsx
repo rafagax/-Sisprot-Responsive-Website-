@@ -1,5 +1,5 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-import PlanesYServicios from '../PlanesYServicios'; // Asegúrate de que la ruta sea correcta
+import PlanesYServicios from '../planesyServicios';
 import Instalacion from '../Instalacion'; // Asegúrate de que la ruta sea correcta
 import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
@@ -8,6 +8,7 @@ import SisprotTv from '../SisprotTv';
 import Otros from '../Otros';
 
 import './App.css';
+
 
 
 const AppRoutes = () => {

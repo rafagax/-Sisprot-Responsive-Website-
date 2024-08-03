@@ -1,5 +1,6 @@
 
-import Fotter from '../../Components/Footer';
+import Footer from '../../Components/Footer';
+
 import './planes-y-Servicios.css';
 
 
@@ -41,7 +42,7 @@ function PlanesYServicios() {
         <p>Todos nuestros planes están diseñados para ofrecer la mejor experiencia de internet posible. No importa cuál elijas, puedes contar con una conexión rápida, confiable y sin límites. Contrata hoy mismo el plan que mejor se adapte a tus necesidades y descubre la diferencia de navegar con Sisprot Global Fiber.</p>
       </div>
     </div>
-    <Fotter/>
+    <Footer/>
 </>
   );
 }

@@ -6,7 +6,7 @@ function Instalacion() {
  
      <div>
        <img src='/workingpg.png' alt='workingpg' className='' />
-       <img src='/workingpg.png' alt='workingpg' className='' />
+
    
    
         <Fotter/>
