@@ -7,12 +7,12 @@ import MisOrdenes from '../MisOrdenes';
 import SisprotTv from '../SisprotTv';
 import Otros from '../Otros';
 import './App.css';
-import PlanesyServicios from '../PlanesyServicios';
+
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <PlanesyServicios /> },
-    { path: '/PlanesyServicios', element: <PlanesyServicios /> },
+    { path: '/', element: <Otros /> },
+
     { path: '/SisprotTv', element: <SisprotTv /> },
     { path: '/Instalacion', element: <Instalacion /> },
     { path: '/Otros', element: <Otros /> },

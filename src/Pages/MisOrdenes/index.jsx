@@ -1,15 +1,18 @@
-import Fotter from '../../Components/Footer';
+import Footer from '../../Components/Footer';
+
 import './MisOrdenes.css';
 
 function MisOrdenes() {
    return (
  
-     <div>
-       <img src='/workingpg.png' alt='workingpg' className='' />
+
+    <div>
+    <img src='/workingpg.png' alt='workingpg' className='' />
    
-        <Fotter/>
-        </div>
-   
+  
+
+     <Footer/>
+     </div>
   );
 }
 

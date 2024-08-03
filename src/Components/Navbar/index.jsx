@@ -14,13 +14,12 @@ const Navbar = () => {
       <DropdownMenu />
      
         <ul className='nav-links'>
-    
-      
-           <li>
-            <NavLink to='/PlanesYServicios'>
+        <li>
+            <NavLink to='/Otros'>
               Planes y Servicios
             </NavLink>
           </li>
+       
           <li>
             <NavLink to='/SisprotTv'>
               Sisprot Tv
@@ -31,11 +30,7 @@ const Navbar = () => {
               Instalacion
             </NavLink>
           </li>
-          <li>
-            <NavLink to='/Otros'>
-              Otros
-            </NavLink>
-          </li>
+         
         </ul>
         <ul className='nav-actions'>
           <li className='email'>
@@ -43,7 +38,7 @@ const Navbar = () => {
           </li>
           <li className='nav-orders'>
             <NavLink to='/MisOrdenes'>
-              Mis Ordenes
+            Mis Ordenes
             </NavLink>
           </li>
           <li className='cart'>
