@@ -20,11 +20,10 @@ const DropdownMenu = () => {
         Menu
       </button>
       <ul className='dropdown-content'>
-        <li><NavLink to='/PlanesYServicios' className='dropdown-link'>Planes y Servicios</NavLink></li>
+      <li><NavLink to='/Otros' className='dropdown-link'>Planes y Servicios</NavLink></li>
         <li><NavLink to='/SisprotTv' className='dropdown-link'>Sisprot Tv</NavLink></li>
         <li><NavLink to='/Instalacion' className='dropdown-link'>Instalacion</NavLink></li>
-        <li><NavLink to='/Otros' className='dropdown-link'>Otros</NavLink></li>
-        <li><NavLink to='/MisOrdenes' className='dropdown-link'>Mis Ordenes</NavLink></li>
+       <li><NavLink to='/MisOrdenes' className='dropdown-link'>Mis Ordenes</NavLink></li>
       </ul>
     </div>
   );
