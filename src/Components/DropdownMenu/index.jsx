@@ -22,8 +22,8 @@ const DropdownMenu = () => {
       <ul className='dropdown-content'>
       
         <li><NavLink to='/SisprotTv' className='dropdown-link'>Sisprot Tv</NavLink></li>
-        <li><NavLink to='/PlanesyServicios' className='dropdown-link'>Planes y Servicios</NavLink></li>
-        <li><NavLink to='/Instalacion' className='dropdown-link'>Instalacion</NavLink></li>
+       <li><NavLink to='/Instalacion' className='dropdown-link'>Instalacion</NavLink></li>
+       <li><NavLink to='/PlanesyServicios' className='dropdown-link'>Planes y Servicios</NavLink></li>
        <li><NavLink to='/MisOrdenes' className='dropdown-link'>Mis Ordenes</NavLink></li>
       </ul>
     </div>
