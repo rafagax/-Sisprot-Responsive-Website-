@@ -5,23 +5,8 @@ function MisOrdenes() {
    return (
  
      <div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
-        <div>MisOrdenes </div>
+       <img src='/workingpg.png' alt='workingpg' className='' />
+   
         <Fotter/>
         </div>
    
