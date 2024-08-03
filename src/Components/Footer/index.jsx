@@ -15,7 +15,7 @@ const Footer = () => {
           <section className='sectionfooter' >   
           <h5 className='H2-Footer'>Horarios de atención al cliente:</h5>
           <h5>Atención por oficina</h5>
-          <p>Lunes - Viernes: 8:00 a.m. - 5:00 p.m.</p>
+          <p>Lunes - Viernes: 8:00 a.m. - 3:30 p.m.</p>
           <p>Sábados: 8:00 a.m. - 1:00 p.m.</p>
           <h5>Atención por call center</h5>
           <p>Lunes - Domingo: 8:00 a.m. - 11:59 p.m.</p>
