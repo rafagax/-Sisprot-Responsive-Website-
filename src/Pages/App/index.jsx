@@ -1,18 +1,17 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-
-import Instalacion from '../Instalacion'; // Asegúrate de que la ruta sea correcta
+import React, { useState } from 'react';
+import Instalacion from '../Instalacion'; 
 import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
 import MisOrdenes from '../MisOrdenes';
 import SisprotTv from '../SisprotTv';
 import PlanesyServicios from '../PlanesyServicios';
+import Modal from '../../Components/Modal';
 import './App.css';
-
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <PlanesyServicios /> },
-
+    { path: '/', element: <PlanesyServicios /> },/*Homepage*/
     { path: '/SisprotTv', element: <SisprotTv /> },
     { path: '/Instalacion', element: <Instalacion /> },
     { path: '/PlanesyServicios', element: <PlanesyServicios /> },
@@ -24,11 +23,17 @@ const AppRoutes = () => {
 };
 
 const App = () => {
+  const [isModalVisible, setModalVisible] = useState(true);
+
+  const handleCloseModal = () => {
+    setModalVisible(false);
+  };
+
   return (
     <BrowserRouter>
       <Navbar />
-      
-      <AppRoutes />
+      <Modal isVisible={isModalVisible} onClose={handleCloseModal} />
+      {!isModalVisible && <AppRoutes />}
     </BrowserRouter>
   );
 };

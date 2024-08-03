@@ -1,0 +1,82 @@
+/* Estilos generales para el modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Responsive adjustments for screens up to 480px */
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 10px;
+    }
+}
+
+/* Responsive adjustments for screens between 481px and 825px */
+@media (min-width: 481px) and (max-width: 825px) {
+    .modal-content {
+        padding: 15px;
+    }
+
+    .modal-content img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* Responsive adjustments for screens wider than 825px */
+@media (min-width: 826px) {
+    .modal-content {
+        padding: 20px;
+    }
+
+    .modal-content img {
+        width: 45%;
+        height: auto;
+    }
+    .modal-content {
+        position: relative;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: auto;
+        max-height: auto;
+        overflow-y: auto;
+    }
+}

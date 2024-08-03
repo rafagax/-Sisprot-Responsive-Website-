@@ -1,0 +1,82 @@
+src/planes-y-Servicios.css
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo suave para la página */
+    color: #333; /* Color de texto principal */
+  }
+  
+  .planesyServicios-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  h1 {
+    color: #003366; /* Azul oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #003366; /* Azul oscuro */
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .planesyServicios-content {
+    padding: 20px;
+  }
+  
+  .plan {
+    border: 1px solid #003366; /* Borde azul oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f0f8ff; /* Azul muy claro para el fondo del plan */
+  }
+  
+  .plan h3 {
+    color: #003366; /* Azul oscuro */
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    margin-bottom: 10px;
+    color: #333; /* Color de texto principal */
+  }
+  
+  button {
+    background-color: #003366; /* Azul oscuro para el botón */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #002244; /* Azul más oscuro para el hover */
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  P{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
+  body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #787878;
+    background-color: #fafafa;
+  }
