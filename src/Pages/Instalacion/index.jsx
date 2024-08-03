@@ -1,11 +1,13 @@
 import Fotter from '../../Components/Footer';
-import './MisOrdenes.css';
+import './instalacion.css';
 
-function MisOrdenes() {
+function Instalacion() {
    return (
  
      <div>
        <img src='/workingpg.png' alt='workingpg' className='' />
+
+   
    
         <Fotter/>
         </div>
@@ -13,5 +15,5 @@ function MisOrdenes() {
   );
 }
 
-export default MisOrdenes;
+export default Instalacion;
 

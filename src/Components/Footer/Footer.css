@@ -40,8 +40,8 @@
 
 
 .social-icons img {
-  width: 24px;
-  height: 24px;
+  width: 54x;
+  height: 54px;
   margin: auto;
 }
 
@@ -143,4 +143,9 @@ margin-bottom: 10px;
 .social-icons{
 
   margin: 20px 0px 20px -180px;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: auto;
 }}

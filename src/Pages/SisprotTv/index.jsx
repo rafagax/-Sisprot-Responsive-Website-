@@ -1,11 +1,12 @@
 import Fotter from '../../Components/Footer';
-import './MisOrdenes.css';
+import './SisproTv.css';
 
-function MisOrdenes() {
+function SisproTv() {
    return (
  
      <div>
        <img src='/workingpg.png' alt='workingpg' className='' />
+      
    
         <Fotter/>
         </div>
@@ -13,5 +14,5 @@ function MisOrdenes() {
   );
 }
 
-export default MisOrdenes;
+export default SisproTv;
 
