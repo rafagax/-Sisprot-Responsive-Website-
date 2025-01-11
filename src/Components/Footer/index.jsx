@@ -21,7 +21,7 @@ const Footer = () => {
           <p>Lunes - Domingo: 8:00 a.m. - 11:59 p.m.</p>
         </section>
         <section className='sectionfooter' > 
-          <h4 className='pfotter'>© 2024, Sisprot Global Fiber. Todos los derechos reservados.</h4>
+          <h4 className='pfotter'>-© 2024, Sisprot Global Fiber. Todos los derechos reservados.</h4>
           <p className='pfotter'>Pg web desarrollada por Ing. Jesús-Vasquez</p>
           <div className="social-icons">
             <a href="https://www.facebook.com/sisprotgf/"><img src="facebook-icon.png" alt="Facebook" /></a>
