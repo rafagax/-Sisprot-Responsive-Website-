@@ -12,7 +12,8 @@
 - Optimizaciones para un mejor rendimiento.
 
 - ![image](https://github.com/user-attachments/assets/8f85a9d3-3fe9-4b69-b856-eaaf02526edb)
-- ![image](https://github.com/user-attachments/assets/26a4f3a1-2bb6-4d61-a6db-5a12e6995803)
+- ![image](https://github.com/user-attachments/assets/5274d45c-2aeb-4146-b95e-abdab3b24b12)
+
 
 
 
