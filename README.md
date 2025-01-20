@@ -4,7 +4,7 @@
 
 🌐 **[Ver el proyecto en línea](https://web-responsive-sisprot-global-fiber.vercel.app/)**
 
----
+----
 
 ## Características
 - Diseño responsivo adaptado a dispositivos móviles y de escritorio.
